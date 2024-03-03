@@ -1,0 +1,21 @@
+:root{
+    /*Fonts*/
+
+    /*Text color*/
+    --basic-color:#212121;
+    --second-color:#757575;
+
+    /*Background-color*/
+    --fon-color:#FFFFFF;
+    --heroy-color:#2F303A;
+    /*Others*/
+}
+
+body{
+    background-color:var(--fon-color);
+    color:var(--basic-color);
+}
+.heroy{
+    background-color:var(--heroy-color); 
+    color:var(--fon-color);
+}
