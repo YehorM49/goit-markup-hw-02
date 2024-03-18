@@ -1,21 +1,188 @@
 :root{
     /*Fonts*/
+    --main-font: 'Roboto', sans-serif  ;
+    --secondary-font: 'Raleway', sans-serif;
+
 
     /*Text color*/
     --basic-color:#212121;
     --second-color:#757575;
+    --activ-color:#2196F3;
+    --btn-color:#F5F4FA;
+    --studio-color:#000000;
+    --address-color:rgba(255, 255, 255, 0.6);
 
     /*Background-color*/
     --fon-color:#FFFFFF;
     --heroy-color:#2F303A;
+
+
     /*Others*/
 }
 
 body{
     background-color:var(--fon-color);
     color:var(--basic-color);
+    font-family:var(--main-font);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16/14);
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+                                                       /*navigation*/
+.nav-site{
+font-family: var(--secondary-font);
+font-size: 26px;
+font-weight: 700;
+line-height:calc(31/26);
+}
+.logo-web{
+    color:var(--activ-color) ;
+}
+.logo-studio{
+color:var(--studio-color);
+}
+.transition-page{
+    color: var(--basic-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight:500 ;
+    line-height:calc(16/14) ;
+}
+
+.transition-page:hover,
+.transition-page:focus{
+    color:var(--activ-color) ;
+}
+
+.link-address{
+    color: var(--second-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height:calc(16/14) ;
+}
+.link-address:hover,
+.link-address:focus{
+    color:var(--activ-color) ;
+}
+
+
+                                                             /*ГероЙ*/                                                         
 .heroy{
     background-color:var(--heroy-color); 
     color:var(--fon-color);
+}
+.heroy-title{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height:calc(60/44) ;
+}
+.heroy-btn{
+    text-align: center;
+    background-color: var(--activ-color);
+    color: var(--btn-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height:calc(30/16) ;
+}
+                                                        /*benefits*/  
+  .benefits-title{
+    font-weight: 700;
+  } 
+  .benefits-text{
+    color: var(--second-color);
+    font-weight: 400;
+    line-height:calc(24/14) ;
+  }
+                                                     /*Чим ми займаємося*/
+ .job-title,
+ .commanda-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height:calc(42/36) ;
+ }
+                                                        /*Наша команда*/
+ .commanda-name{
+    text-align: center;
+    font-size: 16px;
+    line-height:calc(18/16) ;
+ }
+ .commanda-text{
+    color: var(--second-color);
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:calc(18/16) ;
+ }
+                                                        /*FOOTER*/
+.footer{
+    background-color: #000000;
+}
+.logo{
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: 700;
+    line-height:calc(31/26); 
+}
+.footer-studio{
+    color: var(--fon-color);
+}
+.contact-maps{
+    color: var(--fon-color);
+}
+.contact-item                           
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height:calc(24/14) ;
+}     
+.contact-adress>.contact-link{
+    color: var(--address-color);
+}                                               
+                                                        /*pORTFOLIO*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+    
+.btn-tape{
+        text-align: center;
+        font-size: 16px;
+        line-height:calc(26/16);
+        cursor: pointer;
+        background-color:var(--btn-color) ;
+        color:var(--basic-color);
+    }
+.btn-tape:hover,
+.btn-tape:focus{
+        background-color: var(--activ-color);
+        color: var(--fon-color);
+    }
+.galery-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height:calc(36/18);
+}
+.galery-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:calc(30/16); 
+}
+.galery-description{
+    text-align: center;
 }
